@@ -1,0 +1,37 @@
+<!--<div>
+  <h1>Welcome {{ name }}</h1>
+  <h2>{{ 10 + 4 * 2 }}</h2>
+  <img src="{{ imageURL }}" alt="" />
+  <input type="text" placeholder="Enter phone number" #phoneNumber (keyup)='0'/>
+  <h2>{{ phoneNumber.value }}</h2>
+  <img [src]="imageURL" alt="">
+</div>-->
+
+<!--<div>
+  <div [class.special]="isSpecial"
+  (mouseover) = 'onMouseOver()'
+  (mouseout) = 'onMouseOut()'
+  >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo debitis
+    sint nostrum impedit repudiandae consequatur nulla minus sunt, fugit ipsam?
+    Nisi vel nostrum est facere, delectus similique ut assumenda.
+  </div>
+  <div>
+    Deserunt exercitationem sint nostrum delectus officia alias adipisci
+    facilis? Quasi laborum illum, itaque odit sit ab ipsa iure labore, dolorum,
+    error veritatis consequatur? Dolor beatae consequuntur exercitationem
+    excepturi ipsum odit!
+  </div>
+  <div [class.special]="isSpecial">
+    Commodi quidem vero aut sunt provident tenetur sit officiis illo error.
+    Inventore asperiores dolor, obcaecati quod qui ipsum dolore accusantium
+    explicabo reprehenderit quaerat in accusamus perferendis mollitia dicta
+    saepe eum.
+  </div>
+</div>-->
+
+<input type="text" [(ngModel)] = 'username'>
+<div>{{username}}</div>
+<button [disabled] = "onClick()"
+(click) = "onClick()"
+>Click Me!</button>
